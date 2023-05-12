@@ -5,8 +5,8 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables de fenix
 env:
-  RESOURCE-GROUP: GR-GitHub
-  LOCATION: eastus
+  RESOURCE-GROUP: GR-GitHub2
+  LOCATION: eastus2
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 90dbe500-6c69-4e6c-a7c5-3fd64f9d004d
   WEBAPP-NAME: az400-webapp-DEV
